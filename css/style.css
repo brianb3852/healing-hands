@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
+    color: green;
 }
 
 h1, h2, h3 {
@@ -7,14 +8,15 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: white;
+    color: green;
 }
 header h2 {
-    color: #CEC8FF;
+    color: green;
 }
 
 .site-footer {
-    background-image: linear-gradient(#cec8ff, white);
+    background-image: linear-gradient( green, lightgreen);
+    color: white;
     padding: 20px 0;
 }
 
@@ -56,6 +58,13 @@ header h2 {
 .facts {
     background-color: #446015;
 
+}
+
+.white {
+    color: black;
 
 }
 
+a:hover {
+    color: white;
+}
