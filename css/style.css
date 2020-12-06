@@ -60,11 +60,11 @@ header h2 {
 
 }
 
-.white {
+.black {
     color: black;
 
 }
 
-a:hover {
+.hover:hover {
     color: white;
 }
